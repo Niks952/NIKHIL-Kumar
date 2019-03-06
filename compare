@@ -1,0 +1,14 @@
+\\Write a program to compare two number and return the smaller of two numbers
+#include<stdio.h>
+int input(int *a,int*b)
+{
+	printf("enter two no.'s\n");
+	scanf("%d%d",a,b);
+}
+int compare(int a,int b)
+{
+	if(a<b)
+	   printf("smallest no. is=",a);
+	else
+	   printf("smallest no. is=",b);
+}
